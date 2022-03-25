@@ -31,4 +31,6 @@ r = f*m
 r2 = f1*m
 g = p/2
 r1 = 0.17*m
-print(f"Z = {z:.2f} ; df = {df:.2f} ; dp = {dp:.2f} ; p = {p:.2f} ; a = {a:.2f} ; b = {b:.2f} ; s = {s:.2f} ; db = {db:.2f} ; l = {l:.2f} ; R = {r:.2f} ; r = {r2:.2f} ; G = {g:.2f} ; r1 = {r1:.2f} ")
+de = 2*m+dp
+di = dp - 2*b
+print(f"Z = {z:.2f} ; df = {df:.2f} ; dp = {dp:.2f} ; p = {p:.2f} ; a = {a:.2f} ; b = {b:.2f} ; s = {s:.2f} ; db = {db:.2f} ; l = {l:.2f} ; R = {r:.2f} ; r = {r2:.2f} ; G = {g:.2f} ; r1 = {r1:.2f} ; de = {de:.2f} ; di = {di:.2f} ;")
