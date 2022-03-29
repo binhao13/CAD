@@ -1,6 +1,8 @@
 from cmath import pi
 import math
 
+#pimbada
+
 n = float(input("Digite o seu numero de chamada: "))
 z = n + 12
 df = (n+8)*1.6
