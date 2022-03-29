@@ -6,16 +6,13 @@ z = n + 12
 df = (n+8)*1.6
 if n >= 1 and n<= 10:
     m = 4
-    dp = m*z
 elif n >= 11 and n <= 20:
     m = 3.25
-    dp = m*z
 elif n >= 21 and n <= 2.5:
     m = 2.5
-    dp = m*z
 elif n >= 30:
     m = 2
-    dp = m*z
+dp = m*z
 p = m*pi
 a = m
 b = 1.167*m
