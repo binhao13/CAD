@@ -1,12 +1,12 @@
 nc = float(input("Digite seu número de chamada: "))
 
-if nc >= 1 or nc <= 10:
+if nc >= 1 and nc <= 10:
     m = 4
     beta = 20
-elif nc >= 11 or nc <= 20:
+elif nc >= 11 and nc <= 20:
     m = 3.25
     beta = 30
-elif nc >= 21 or nc <= 30:
+elif nc >= 21 and nc <= 30:
     m = 2.5
     beta = 40
 elif nc >= 31:
